@@ -3,33 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graphic Design Studio | Visual Identities & Solutions</title>
+    <title>A&S Graphic Designs | Visual Identities & Solutions</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome vector icons for Instagram, Facebook, and Gmail -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <!-- Header Section -->
     <header>
-        <div class="logo">DESIGN STUDIO</div>
+        <div class="logo">
+            <!-- AS Graphic Designing monogram logo file -->
+            <img src="logo.png" alt="A&S Graphic Designs" style="height: 40px; vertical-align: middle;">
+            <span style="margin-left: 8px; font-weight: bold;"></span>
+        </div>
         <nav>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#work">Work</a>
-            <a href="#contact" class="nav-btn">Book a Project</a>
+            <a href="#contact">Contact</a>
+            
+            </a>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
-        <h1>Visual Identities & Design Solutions That Get Brands Noticed</h1>
-        <p class="subheading">I help businesses, startups, and creators build memorable brand identities, digital assets, and high-impact marketing visuals.</p>
+        <!-- Callout Badges & Offers -->
+        <div class="hero-badges" style="margin-bottom: 15px;">
+            <span class="badge offer-badge" style="background: #ff4d4d; color: #fff; padding: 6px 14px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; display: inline-block; margin-right: 8px;">
+                🎁 Get 10% Off Your First Brand Package
+            </span>
+            <span class="badge bonus-badge" style="background: #4ab3f4; color: #fff; padding: 6px 14px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; display: inline-block;">
+                ✨ Free Consultation & Mockup with Every Order
+            </span>
+        </div>
+
+        <h1>Your Brand, Our Creativity!</h1>
+        <p class="subheading">Visual Identities & Design Solutions That Get Brands Noticed. I help businesses, startups, and creators build memorable brand identities, digital assets, and high-impact marketing visuals.</p>
+
+        <!-- Social Proof & Urgency -->
+        <div class="trust-signals" style="margin: 20px 0; font-size: 0.95rem;">
+            <p style="margin-bottom: 5px; color: #ffcc00; font-weight: bold;">
+                ⭐ 100% Satisfaction Guaranteed | 50+ Brands Transformed | ⚡ Fast 24-48h Delivery Available
+            </p>
+            <p style="color: #ff6b6b; font-weight: bold;">
+                🔥 Limited slots available for this month – Book your design today!
+            </p>
+        </div>
+
+        <!-- High-Contrast CTA Buttons -->
         <div class="cta-buttons">
-            <a href="#work" class="btn btn-primary">Explore My Work</a>
-            <a href="#contact" class="btn btn-secondary">Book a Project</a>
+            <a href="#contact" class="btn btn-primary" style="background-color: #ff0055; color: #fff; font-weight: bold; padding: 12px 24px; border-radius: 5px; text-decoration: none; display: inline-block;">
+                Get a Free Quote
+            </a>
+            <a href="#work" class="btn btn-secondary" style="background-color: #333; color: #fff; font-weight: bold; padding: 12px 24px; border-radius: 5px; text-decoration: none; display: inline-block; margin-left: 10px;">
+                Explore Portfolio
+            </a>
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about-section">
         <h2>Behind the Designs</h2>
-        <p class="bio-text">Hi! I'm a graphic designer with a passion for transforming bold ideas into powerful visual experiences. Whether you need a fresh brand identity from scratch, engaging social media graphics, or print-ready marketing materials, I focus on design that isn't just visually stunning—it works for your business.</p>
+        <p class="bio-text">Hi! I'm Alex Smith, CEO of A&S Graphic Designs. I have a passion for transforming bold ideas into powerful visual experiences. Whether you need a fresh brand identity from scratch, engaging social media graphics, or print-ready marketing materials, I focus on design that isn't just visually stunning—it works for your business.</p>
         <p class="bio-text">My approach combines clean aesthetics, strategic design thinking, and clear communication from concept to final delivery.</p>
         
         <div class="tools-container">
@@ -43,12 +80,13 @@
         </div>
     </section>
 
+    <!-- Services Section -->
     <section id="services" class="services-section">
         <h2>Services & Packages</h2>
         <div class="services-grid">
             
             <div class="service-card">
-                <h3>1. Brand Identity Package</h3>
+                <h3>1. Brand & Website Identity</h3>
                 <p class="service-desc">Custom visual identity to make your business instantly recognizable.</p>
                 <ul>
                     <li>Primary Logo, Secondary Logo & Brand Mark</li>
@@ -69,48 +107,99 @@
             </div>
 
             <div class="service-card">
-                <h3>3. Marketing & Print Materials</h3>
+                <h3>3. Packaging & Print Collateral</h3>
                 <p class="service-desc">Professional print and digital assets tailored to your campaigns.</p>
                 <ul>
                     <li>Business Cards & Letterheads</li>
                     <li>Flyers, Posters & Event Banners</li>
                     <li>Product Packaging & Label Design</li>
+                    <li>Website & Portfolio Designing</li>
                 </ul>
             </div>
 
         </div>
     </section>
 
+    <!-- Featured Work / Portfolio Showcase -->
     <section id="work" class="work-section">
-        <h2>Featured Work</h2>
+        <h2>Featured Work & Portfolio Mockups</h2>
+        <p style="text-align:center; color: #666; margin-bottom: 25px;">
+            Real projects showcased in high-quality laptop, mobile, and product packaging mockups.
+        </p>
+
         <div class="case-study-card">
             <div class="case-study-content">
-                <span class="category">Brand Identity & Packaging Design</span>
-                <h3>Project Title: [Client / Brand Name]</h3>
-                <p><strong>The Challenge:</strong> [Client Name] needed a modern, approachable visual identity to stand out in a crowded market.</p>
-                <p><strong>The Solution:</strong> Created a fresh logo system, vibrant color scheme, and cohesive packaging mockups that elevated their brand presence.</p>
+                <span class="category">Brand Identity & Marketing Campaign</span>
+                <h3>Project Title: A&S Graphic Designs Promotional Campaign</h3>
+                <p><strong>The Challenge:</strong> Establishing a strong, professional corporate presence online and via print collateral for a new design studio launch.</p>
+                <p><strong>The Solution:</strong> Developed an elegant monogram logo system, modern business cards, screen mockups, and social media promotion templates to drive client outreach.</p>
+                <a href="#contact" class="btn btn-primary" style="display:inline-block; margin-top: 15px; padding: 10px 20px; background: #25D366; color: white; border-radius: 5px; text-decoration: none;">
+                    Order Your Design Today
+                </a>
             </div>
             <div class="case-study-image">
-                <div class="image-placeholder">Project Image Here</div>
+                <!-- Actual portfolio mockup image -->
+                <img src="social_media_poster.jpg" alt="A&S Graphic Designs Portfolio Mockup" style="width: 100%; height: auto; border-radius: 8px;">
             </div>
         </div>
     </section>
 
+    <!-- Contact & Direct Scan Section -->
     <section id="contact" class="contact-section">
         <h2>Have a Project in Mind? Let's Work Together!</h2>
         <p>I'm currently accepting new projects, commissions, and freelance collaborations. Send me a message detailing your project, and I'll get back to you within 24 hours.</p>
         
-        <div class="contact-details">
-            <p><strong>Email:</strong> <a href="mailto:yourname@email.com">yourname@email.com</a></p>
-            <p><strong>Location:</strong> Available Worldwide</p>
-            <div class="social-links">
-                <a href="#">Instagram</a> | <a href="#">Facebook</a>
+        <div class="contact-container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 25px;">
+            
+            <!-- Contact Details with Vector Icons -->
+            <div class="contact-details" style="flex: 1; min-width: 280px; margin-bottom: 20px;">
+                <p><strong>Name:</strong> Alex Smith (CEO A&S Graphic Designs)</p>
+                
+                <p>
+                    <i class="fa-solid fa-envelope" style="color: #ea4335; margin-right: 8px;"></i>
+                    <strong>Email:</strong> <a href="mailto:alsmi0810@gmail.com">alsmi0810@gmail.com</a>
+                </p>
+                
+                <p>
+                    <i class="fa-solid fa-phone" style="color: #34b7f1; margin-right: 8px;"></i>
+                    <strong>Phone:</strong> <a href="tel:+2348106113297">+234 810 611 3297</a>
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-location-dot" style="color: #ff4757; margin-right: 8px;"></i>
+                    <strong>Address:</strong> No. 9 Hatchery Road, Abakaliki, Ebonyi, Nigeria
+                </p>
+
+                <p>
+                </p>
+
+                <!-- Vector Icons for Instagram, Facebook, and WhatsApp -->
+                <div class="social-links" style="margin-top: 15px; font-size: 1.1rem;">
+                    <a href="https://instagram.com/alsmi0810" target="_blank" style="margin-right: 15px; text-decoration: none; color: #e1306c;">
+                        <i class="fa-brands fa-instagram"></i> Instagram: @alsmi0810
+                    </a>
+                    <br style="margin-bottom: 8px;">
+                    <a href="https://facebook.com" target="_blank" style="text-decoration: none; color: #1877f2;">
+                        <i class="fa-brands fa-facebook"></i> Facebook: Alex Smith
+                    </a>
+                </div>
             </div>
+
+            <!-- Instant QR Code Scanner Box -->
+            <div class="qr-code-box" style="flex: 0 0 220px; text-align: center; background: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+                <!-- QR Code linking to WhatsApp / Online Portfolio -->
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/2348106113297" alt="Scan QR Code for Instant WhatsApp Chat" style="width: 150px; height: 150px; margin-bottom: 10px;">
+                <p style="font-size: 0.85rem; font-weight: bold; margin: 0; color: #333;">
+                    Scan for Instant WhatsApp Inquiry & Portfolio
+                </p>
+            </div>
+
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Graphic Design Studio. All rights reserved.</p>
+        <p>&copy; 2026 A&S Graphic Designs. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
